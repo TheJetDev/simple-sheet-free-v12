@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -253,7 +253,7 @@
                   btnProLink: "🚀 Ottieni Pro", btnClose: "Chiudi" }
         };
 
-        let currentLanguage = 'ja'; 
+        let currentLanguage = 'en'; 
         let currentCalc = "0";
 
         function init() {
@@ -268,7 +268,7 @@
 
             const s = JSON.parse(localStorage.getItem('simpleSheetSettings_free') || '{}');
             applyData(s);
-            setLanguage(localStorage.getItem('simpleSheetLang_free') || 'ja'); 
+            setLanguage(localStorage.getItem('simpleSheetLang_free') || 'en'); 
         }
 
         function setLanguage(lang) {
